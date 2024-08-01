@@ -1,0 +1,650 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Final Project</title>
+</head>
+<body>
+<!--MArkup for Header Satart-->
+
+<header id="header_all">
+    <div class="main-nav">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu1, menu2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="index.html" class="navbar-brand">Makeup Shakeup</a>
+
+                <div class="collapse navbar-collapse flex-column" id="menu1">
+                    <div class="nav-top w-100">
+                        <ul class="navbar-nav justify-content-end">
+                            <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user"></i>My Account
+
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="checkOut.html">Sign In</a>
+                                    <a class="dropdown-item" href="checkOut.html">Check Out</a>
+                                </div>
+
+                            </a>
+                            </li>
+                            <li class="nav-item"><a href="add_to_cart.html" class="nav-link"><i class="fas fa-heart"></i>Wishlist</a></li>
+
+                            <li class="nav-item"><a href="add_to_cart.html" class="nav-link"><i class="fas fa-shopping-cart"></i>Cart</a></li>
+
+                            <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Currency
+
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">$USD</a>
+                                    <a class="dropdown-item" href="#">BDT</a>
+
+                                </div>
+                            </a>
+                            </li>
+
+                            <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-search"></i></a> </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="nav-bottom w-100">
+                        <ul class="navbar-nav justify-content-end">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Makeup Product
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="product_list.html">Lip</a>
+                                        <a class="dropdown-item " href="product_list.html">Eye</a>
+                                        <a class="dropdown-item" href="product_list.html">Face</a>
+                                        <a class="dropdown-item" href="product_list.html">Set</a>
+                                    </div>
+
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Skincare Product
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item " href="product_list.html">Body</a>
+                                        <a class="dropdown-item" href="product_list.html">Face</a>
+                                        <a class="dropdown-item" href="product_list.html">Nail Care</a>
+                                    </div>
+
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="product_list.html">Haircare Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="product_list.html">Baby Product</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+
+                </div>
+            </nav>
+        </div>
+
+
+    </div>
+
+</header>
+
+<!--MArkup for Header End-->
+
+<!--Markup for Breadcrumb Start-->
+
+<section id="breadcrumb">
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mt-3">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Lip</li>
+            </ol>
+        </nav>
+
+    </div>
+</section>
+
+
+
+<!--Markup for Breadcrumb End-->
+
+<!--Markup for main start-->
+
+<div class="main-body">
+    <div class="container">
+
+        <div class="row">
+            <!--Markup for Sidebar Start-->
+            <div class="col-lg-4 col-md-3">
+                <div class="sidebar">
+                    <div id="accordion">
+                        <!--Markup for catagories-->
+
+                        <div id="headingOne">
+                            <h3><a href="#collapseOne" data-toggle="collapse" aria-expanded="false" aria-controls="collapseOne">Catagories</a></h3>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show " aria-labelledby="headingOne" data-parent="#accordion">
+                            <nav id="navbar3" class="navbar">
+                                <nav class="nav flex-column">
+                                    <a  class="nav-link font-weight-bold" href="#collapse-submenu-1" data-toggle="collapse" aria-expanded="false" aria-controls="collapse-submenu-1">Makeup Product<span class="ml-3"><i class="fas fa-chevron-right"></i></span></a>
+                                    <div id="collapse-submenu-1" class="collapse" aria-labelledby="headingOne" data-parent="#navbar3">
+                                        <a class="nav-link ml-3 my-1" href="product_list.html">Lip</a>
+                                        <a class="nav-link ml-3 my-1" href="product_list.html">Face</a>
+                                        <a class="nav-link ml-3 my-1" href="product_list.html">Eye</a>
+                                    </div>
+                                    <a  class="nav-link font-weight-bold" href="#collapse-submenu-2" data-toggle="collapse" aria-expanded="false" aria-controls="collapse-submenu-2">Skincare Product<span class="ml-3"><i class="fas fa-chevron-right"></i></span></a>
+                                    <div id="collapse-submenu-2" class="collapse" aria-labelledby="headingOne" data-parent="#navbar3">
+                                        <a class="nav-link ml-3 my-1" href="product_list.html">Fragrance</a>
+                                        <a class="nav-link ml-3 my-1" href="product_list.html">Lotion</a>
+                                        <a class="nav-link ml-3 my-1" href="product_list.html">Cleanser</a>
+                                        <a class="nav-link ml-3 my-1" href="product_list.html">Face Mask</a>
+
+                                    </div>
+                                    <a class="nav-link font-weight-bold" href="product_list.html">Hair Product</a>
+                                    <a class="nav-link font-weight-bold" href="product_list.html">Baby Product</a>
+                                </nav>
+                            </nav>
+
+                        </div>
+
+                        <!--Markup for brands-->
+
+                        <div id="headingTwo" class="mt-3">
+                            <h3><a href="#collapse" data-toggle="collapse" aria-expanded="false" aria-controls="collapse">Brands</a></h3>
+                        </div>
+                        <div id="collapse" class="collapse " aria-labelledby="headingTwo" data-parent="#accordion">
+                            <nav id="brands" class="navbar navbar-light bg-light">
+                                <nav class="nav flex-column list-group">
+                                    <a class="nav-link list-group-item list-group-item-action" href="#" >ABH</a>
+                                    <a class="nav-link list-group-item list-group-item-action" href="#" >Aztec</a>
+                                    <a class="nav-link list-group-item list-group-item-action" href="#" >BH Cosmetics</a>
+                                    <a class="nav-link list-group-item list-group-item-action" href="#" >Ben Nye</a>
+                                    <a class="nav-link list-group-item list-group-item-action" href="#" >Boots</a>
+                                    <a class="nav-link list-group-item list-group-item-action" href="#" >Burts Bee</a>
+                                    <a class="nav-link list-group-item list-group-item-action" href="#" >Colourpop</a>
+                                    <a class="nav-link list-group-item list-group-item-action" href="#" >CoverGirl</a>
+                                    <a class="nav-link list-group-item list-group-item-action" href="#" >Dose Of Colors</a>
+                                    <a class="nav-link list-group-item list-group-item-action" href="#" >E.L.F</a>
+                                    <a class="nav-link list-group-item list-group-item-action" href="#" >Flormar</a>
+                                </nav>
+                            </nav>
+                        </div>
+
+
+                    </div>
+
+                    <div class="price_filter mt-5">
+                        <h3>Filter By Price</h3>
+                        <div class="price-range mt-3">
+
+                            <div id="slider-range" class="price-filter-range" name="rangeInput"></div>
+                            <div style="margin:30px auto">
+                                <input type="number" min=0 max="9900" oninput="validity.valid||(value='0');" id="min_price" class="price-range-field" />
+                                <input type="number" min=0 max="10000" oninput="validity.valid||(value='10000');" id="max_price" class="price-range-field" />
+                            </div>
+
+                            <button class="price-range-search" id="price-range-submit">Search</button>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <!--Markup for Sidebar End-->
+
+
+            </div>
+
+            <!--Markup for Product List Start-->
+            <div class="col-lg-8 col-md-9">
+
+                <!--markup for product list start-->
+                <div class="product_list_header">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-md-6">
+                            <div class="view_option">
+                                <div class="btn-group">
+                                    <a href="#" id="list" class="btn btn-default btn-sm"><span><i class="fas fa-list-ul mr-2"></i>
+            </span>List</a>
+
+                                    <a href="#" id="grid" class="btn btn-default btn-sm"><span><i class="fas fa-th mr-2"></i></span>Grid</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+
+                            <div class="select_option">
+
+                     <span>
+
+                    <label for="sort_by">Sort By</label>
+                    <select id="sort_by">
+                        <option value="position" selected="selected">Position</option>
+                        <option value="product_name_ace">Name: A to Z</option>
+                        <option value="product_name_desc">Name Z to A</option>
+                        <option value="product_price_ace">Price: Low to High</option>
+                        <option value="product_price_desc">Price High to Low</option>
+                    </select>
+                </span>
+
+                <span>
+                    <label for="show">Show</label>
+                    <select id="show">
+                        <option value="12" selected="selected">12</option>
+                        <option value="24">24</option>
+                        <option value="36">36</option>
+                        <option value="all">All</option>
+                    </select>
+                </span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="product_list pt-5">
+
+                    <div class="card-deck mb-3">
+                        <div class="card">
+                            <div class="product_catagories_top">
+                                <a href="single_product.html"><img src="img/lipstick-2.jpg" class="card-img-top">
+                                    <img src="img/lipstick-1.jpg" class="card-img-top zoom"></a>
+                                <a href="single_product.html" class="view"><i class="fas fa-search-plus"></i></a>
+                            </div>
+
+                            <div class="card-body">
+                                <h4 class="card-title"><a href="">Lipstick 1</a> </h4>
+                                <div class="product_star">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                                <div class="price">
+                                <span class="current_price">
+                                    Tk 2000
+                                </span>
+                                </div>
+                                <a href="add_to_cart.html" class="btn mt-2">ADD TO CART</a>
+                            </div>
+
+                        </div>
+
+                        <div class="card">
+                            <div class="product_catagories_top">
+                                <a href="single_product.html"><img src="img/lipstick-3.jpg" class="card-img-top">
+                                    <img src="img/lipstick-4.jpg" class="card-img-top zoom"></a>
+                                <a href="single_product.html" class="view"><i class="fas fa-search-plus"></i></a>
+                            </div>
+
+                            <div class="card-body">
+                                <h4 class="card-title"><a href="">Lipstick 2</a> </h4>
+                                <div class="product_star">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                                <div class="price">
+                                <span class="old_price">
+                                    Tk 2500
+                                </span>
+
+                                <span class="current_price">
+                                    Tk 2000
+                                </span>
+                                </div>
+                                <a href="add_to_cart.html" class="btn mt-2">ADD TO CART</a>
+                            </div>
+
+                        </div>
+
+                        <div class="card">
+                            <div class="product_catagories_top">
+                                <a href="single_product.html"><img src="img/lipstick-5.jpg" class="card-img-top">
+                                    <img src="img/lipstick-6.jpg" class="card-img-top zoom"></a>
+                                <a href="single_product.html" class="view"><i class="fas fa-search-plus"></i></a>
+                            </div>
+
+                            <div class="card-body">
+                                <h4 class="card-title"><a href="">Lipstick 3</a> </h4>
+                                <div class="product_star">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                                <div class="price">
+                                <span class="old_price">
+                                    Tk 1500
+                                </span>
+                                <span class="current_price">
+                                    Tk 1200
+                                </span>
+
+                                </div>
+                                <a href="add_to_cart.html" class="btn mt-2">ADD TO CART</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-deck mb-3">
+                        <div class="card">
+                            <div class="product_catagories_top">
+                                <a href="single_product.html"><img src="img/lipstick-2.jpg" class="card-img-top">
+                                    <img src="img/lipstick-1.jpg" class="card-img-top zoom"></a>
+                                <a href="single_product.html" class="view"><i class="fas fa-search-plus"></i></a>
+                            </div>
+
+                            <div class="card-body">
+                                <h4 class="card-title"><a href="">Lipstick 1</a> </h4>
+                                <div class="product_star">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                                <div class="price">
+                                <span class="current_price">
+                                    Tk 2000
+                                </span>
+                                </div>
+                                <a href="add_to_cart.html" class="btn mt-2">ADD TO CART</a>
+                            </div>
+
+                        </div>
+
+                        <div class="card">
+                            <div class="product_catagories_top">
+                                <a href="single_product.html"><img src="img/lipstick-3.jpg" class="card-img-top">
+                                    <img src="img/lipstick-4.jpg" class="card-img-top zoom"></a>
+                                <a href="single_product.html" class="view"><i class="fas fa-search-plus"></i></a>
+                            </div>
+
+                            <div class="card-body">
+                                <h4 class="card-title"><a href="">Lipstick 2</a> </h4>
+                                <div class="product_star">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                                <div class="price">
+                                <span class="old_price">
+                                    Tk 2500
+                                </span>
+
+                                <span class="current_price">
+                                    Tk 2000
+                                </span>
+                                </div>
+                                <a href="add_to_cart.html" class="btn mt-2">ADD TO CART</a>
+                            </div>
+
+                        </div>
+
+                        <div class="card">
+                            <div class="product_catagories_top">
+                                <a href="single_product.html"><img src="img/lipstick-5.jpg" class="card-img-top">
+                                    <img src="img/lipstick-6.jpg" class="card-img-top zoom"></a>
+                                <a href="single_product.html" class="view"><i class="fas fa-search-plus"></i></a>
+                            </div>
+
+                            <div class="card-body">
+                                <h4 class="card-title"><a href="">Lipstick 3</a> </h4>
+                                <div class="product_star">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                                <div class="price">
+                                <span class="old_price">
+                                    Tk 1500
+                                </span>
+                                <span class="current_price">
+                                    Tk 1200
+                                </span>
+
+                                </div>
+                                <a href="add_to_cart.html" class="btn mt-2">ADD TO CART</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-deck mb-3">
+                        <div class="card">
+                            <div class="product_catagories_top">
+                                <a href="single_product.html"><img src="img/lipstick-2.jpg" class="card-img-top">
+                                    <img src="img/lipstick-1.jpg" class="card-img-top zoom"></a>
+                                <a href="single_product.html" class="view"><i class="fas fa-search-plus"></i></a>
+                            </div>
+
+                            <div class="card-body">
+                                <h4 class="card-title"><a href="">Lipstick 1</a> </h4>
+                                <div class="product_star">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                                <div class="price">
+                                <span class="current_price">
+                                    Tk 2000
+                                </span>
+                                </div>
+                                <a href="add_to_cart.html" class="btn mt-2">ADD TO CART</a>
+                            </div>
+
+                        </div>
+
+                        <div class="card">
+                            <div class="product_catagories_top">
+                                <a href="single_product.html"><img src="img/lipstick-3.jpg" class="card-img-top">
+                                    <img src="img/lipstick-4.jpg" class="card-img-top zoom"></a>
+                                <a href="single_product.html" class="view"><i class="fas fa-search-plus"></i></a>
+                            </div>
+
+                            <div class="card-body">
+                                <h4 class="card-title"><a href="">Lipstick 2</a> </h4>
+                                <div class="product_star">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                                <div class="price">
+                                <span class="old_price">
+                                    Tk 2500
+                                </span>
+
+                                <span class="current_price">
+                                    Tk 2000
+                                </span>
+                                </div>
+                                <a href="add_to_cart.html" class="btn mt-2">ADD TO CART</a>
+                            </div>
+
+                        </div>
+
+                        <div class="card">
+                            <div class="product_catagories_top">
+                                <a href="single_product.html"><img src="img/lipstick-5.jpg" class="card-img-top">
+                                    <img src="img/lipstick-6.jpg" class="card-img-top zoom"></a>
+                                <a href="single_product.html" class="view"><i class="fas fa-search-plus"></i></a>
+                            </div>
+
+                            <div class="card-body">
+                                <h4 class="card-title"><a href="">Lipstick 3</a> </h4>
+                                <div class="product_star">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                                <div class="price">
+                                <span class="old_price">
+                                    Tk 1500
+                                </span>
+                                <span class="current_price">
+                                    Tk 1200
+                                </span>
+
+                                </div>
+                                <a href="add_to_cart.html" class="btn mt-2">ADD TO CART</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+
+                <!--Markup for pagination start-->
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center pb-5">
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!--Markup for pagination end-->
+
+            </div>
+            <!--markup for product list end-->
+
+
+        </div>
+
+    </div>
+</div>
+
+
+<!--Markup for main end -->
+
+
+
+<!--Markup for Footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-sm-12">
+                <h3>Contact Us</h3>
+                <ul class="list-unstyled">
+                    <li><i class="fas fa-map-marker-alt pr-2"></i>Address: Your company, Puffin street 12345, Puffinville</li>
+                    <li><i class="fas fa-phone pr-2"></i>Phone: 0123-456-789</li>
+                    <li><i class="far fa-envelope pr-2"></i>Email: contact@yourcompany.com</li>
+                </ul>
+
+                <div class="social_link d-flex justify-content-start">
+                    <span class="follow_title mt-1">Follow us:</span>
+                    <ul class="nav">
+                        <li class="nav-item"><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="nav-item"><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li class="nav-item"><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+                        <li class="nav-item"><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-lg-6 col-sm-12 text-center">
+                <div class="logo pb-2">
+                    <h2><a href="#">Makeup Shakeup</a></h2>
+                </div>
+
+                <h4>ALLOW PAYMENT BASE ON</h4>
+                <div class="payment_method pt-4">
+                    <img src="img/payment-logo1.png" class="img-fluid">
+                    <img src="img/payment-logo2.png" class="img-fluid">
+                    <img src="img/payment-logo3.png" class="img-fluid">
+                    <img src="img/payment-logo4.png" class="img-fluid">
+                    <img src="img/payment-logo5.png" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-2 col-sm-12">
+                <div class="footer-right">
+                    <h3>Information</h3>
+                    <ul class="list-unstyled">
+                        <li><a href=""><i class="fa fa-angle-double-right"></i>Contact Us</a> </li>
+                        <li><a href=""><i class="fa fa-angle-double-right"></i>Best Sellers</a> </li>
+                        <li><a href=""><i class="fa fa-angle-double-right"></i>On Sale</a> </li>
+                        <li><a href=""><i class="fa fa-angle-double-right"></i>Newest Product</a> </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+</footer>
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<!--js for price range filter-->
+<script src="js/price_range_script.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+
+<!--JS File For sticky nav-->
+<script type="text/javascript" src="js/jquery.sticky.js"> </script>
+
+<!--js for image magnify-->
+<script src='js/jquery.elevatezoom.js'></script>
+
+<script src="js/script.js"></script>
+
+
+
+</body>
+</html>

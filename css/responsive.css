@@ -1,0 +1,239 @@
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+
+    body{
+        font-size: 0.8rem;
+    }
+
+    .navbar-brand{
+        font-size: 1.5rem !important;
+    }
+
+    .navbar-toggler {
+        padding: .25rem .25rem;
+    }
+
+
+    #slider{
+        height: auto !important;
+    }
+
+    #product_catagories .product_catagories_text{
+        text-align: center;
+    }
+
+    .carousel-item .col-md-3{
+        margin-top: 2rem;
+    }
+
+
+    footer .col-sm-12{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    footer .social_link{
+        justify-content: center !important;
+    }
+
+    .product_list_header .select_option{
+        margin-top: 2rem;
+    }
+
+    /*Product List*/
+
+    .main-body .col-md-4{
+        display: none;
+    }
+
+
+    .main-body .col-md-8 .col-md-6{
+        display: none;
+    }
+
+    /*Add to cart*/
+
+    thead{
+        display: none;
+    }
+
+    tr.product-row {
+        display: flex;
+        flex-direction: column;
+        border-top: 1px solid #ccc;
+    }
+
+    td.product-col {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .table td{
+        padding: .5rem 1rem;
+        border-top: none;
+        text-align: center;
+    }
+
+    .table .qty_form{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+    body{
+        font-size: 0.8rem;
+    }
+
+    #slider{
+        height: auto !important;
+    }
+
+    #popular_product .nav-link {
+        padding: .2rem .6rem;
+    }
+
+    .product_catagories_top a.view{
+        top:25%;
+    }
+
+    .carousel-item .col-md-3{
+        margin-top: 2rem;
+    }
+
+    #shipping_section .col-lg-4{
+        margin-top: 2rem;
+    }
+
+
+    footer .col-sm-12{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    footer .social_link{
+        justify-content: center !important;
+    }
+
+    .product_list_header .select_option{
+        margin-top: 2rem;
+    }
+
+    /*Product List*/
+
+    .main-body .col-md-3{
+        display: none;
+    }
+
+
+    .main-body .col-md-9 .col-md-6{
+        display: none;
+    }
+
+    /*single product*/
+
+    .zoomContainer{
+        display: none;
+    }
+
+    /*Add to cart*/
+
+    thead{
+        display: none;
+    }
+
+    tr.product-row {
+        display: flex;
+        flex-direction: column;
+        border-top: 1px solid #ccc;
+    }
+
+    td.product-col {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .table td{
+        padding: .5rem 1rem;
+        border-top: none;
+        text-align: center;
+    }
+
+    .table .qty_form{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) {
+
+    body{
+        font-size: 0.8rem;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: .3rem;
+        padding-left: .3rem;
+    }
+
+   #slider .carousel-caption h2{
+       font-size: 4rem !important;
+       margin-bottom: 1rem !important;
+   }
+
+    #slider .carousel-caption h4 span{
+        font-size: 4rem !important
+    }
+
+    #slider .btn{
+        margin-top: 1rem !important;
+    }
+
+    #slider .carousel-caption {
+        bottom: 35% !important;
+
+    }
+
+    #popular_product .nav-link {
+        padding: .2rem .6rem;
+    }
+
+    footer .col-sm-12{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    footer .social_link{
+        justify-content: center !important;
+    }
+
+    #checkOut .col-md-4{
+        margin-top: 2rem;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) {
+
+    #slider .carousel-caption h2{
+        font-size: 4rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    #slider .carousel-caption h4 span{
+        font-size: 4rem !important
+    }
+
+    #slider .btn{
+        margin-top: 1rem !important;
+    }
+
+}

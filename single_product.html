@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Final Project</title>
+</head>
+<body>
+<!--MArkup for Header Satart-->
+
+<header id="header_all">
+    <div class="main-nav">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu1, menu2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="index.html" class="navbar-brand">Makeup Shakeup</a>
+
+                <div class="collapse navbar-collapse flex-column" id="menu1">
+                    <div class="nav-top w-100">
+                        <ul class="navbar-nav justify-content-end">
+                            <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user"></i>My Account
+
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="checkout.html">Sign In</a>
+                                    <a class="dropdown-item" href="checkout.html">Check Out</a>
+                                </div>
+
+                            </a>
+                            </li>
+                            <li class="nav-item"><a href="add_to_cart.html" class="nav-link"><i class="fas fa-heart"></i>Wishlist</a></li>
+
+                            <li class="nav-item"><a href="add_to_cart.html" class="nav-link"><i class="fas fa-shopping-cart"></i>Cart</a></li>
+
+                            <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Currency
+
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">$USD</a>
+                                    <a class="dropdown-item" href="#">BDT</a>
+
+                                </div>
+                            </a>
+                            </li>
+
+                            <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-search"></i></a> </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="nav-bottom w-100">
+                        <ul class="navbar-nav justify-content-end">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Makeup Product
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="product_list.html">Lip</a>
+                                        <a class="dropdown-item " href="product_list.html">Eye</a>
+                                        <a class="dropdown-item" href="product_list.html">Face</a>
+                                        <a class="dropdown-item" href="product_list.html">Set</a>
+                                    </div>
+
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Skincare Product
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item " href="product_list.html">Body</a>
+                                        <a class="dropdown-item" href="product_list.html">Face</a>
+                                        <a class="dropdown-item" href="product_list.html">Nail Care</a>
+                                    </div>
+
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="product_list.html">Haircare Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="product_list.html">Baby Product</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+
+                </div>
+            </nav>
+        </div>
+
+
+    </div>
+
+</header>
+
+<!--MArkup for Header End-->
+
+<!--Markup for Breadcrumb Start-->
+<section id="breadcrumb">
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mt-3 pb-3">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item "><a href="product_list.html">Lip</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Lipstick</li>
+        </ol>
+    </nav>
+
+</div>
+ </section>
+
+
+<!--Markup for Breadcrumb End-->
+
+
+
+<!--Markup for main start-->
+<section class="container">
+    <div class="row pb-5">
+        <div class="col-md-6">
+
+            <div class="preview-pic tab-content">
+
+                <div class="tab-pane active easyzoom example" id="pic-1"><img id="zoom_01" src="img/lipstick-8.jpg" class="img-fluid" alt="img" data-zoom-image="img/lipstick-8 -zoom.jpg"></div>
+                <div class="tab-pane easyzoom example" id="pic-2"><img id="zoom_02"  src="img/lipstick-7.png" class="img-fluid" alt="img" data-zoom-image="img/lipstick-7 -zoom.png"></div>
+                <div class="tab-pane easyzoom example" id="pic-3"><img id="zoom_03" src="img/lipstick-9.jpg" class="img-fluid active" alt="img" data-zoom-image="img/lipstick-9 -zoom.jpg"></div>
+
+            </div>
+            <ul class="preview-thumbnail nav d-flex justify-content-center mt-5">
+                <li class="active"><a href="#" data-target="#pic-1" data-toggle="tab"><img src="img/lipstick_color-2.jpg" class="img-fluid" data-image="img-1"></a></li>
+
+                <li><a href="#" data-target="#pic-3" data-toggle="tab"><img src="img/lipstick_color.jpg" class="img-fluid" data-image="img-2">
+                    </a></li>
+
+                <li><a href="#" data-target="#pic-2" data-toggle="tab"><img src="img/lipstick_color-3.jpg" class="img-fluid" data-image="img-2"></a></li>
+
+
+
+            </ul>
+
+
+        </div>
+
+        <div class="col-md-6">
+            <div class="product_details">
+                <h3 class="mb-3">Lipstic-1</h3>
+                <div class="product_rating d-flex justify-content-start">
+                    <div class="product_star">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <a href="">(6 Reviews)</a>
+                </div>
+
+                <div class="price mt-3 mb-3">
+                    <span class="old_price">
+                        Tk 1500
+                    </span>
+
+                    <span class="current_price">
+                        Tk 1200
+                    </span>
+                </div>
+                <h5>Availability:<span>In Stock</span></h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+
+                <div class="product-action d-flex justify-content-start mt-3">
+
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span id="minus-btn" class="input-group-text"><i class="fa fa-minus"></i></span>
+                        </div>
+                        <input type="number" id="qty_input" class="form-control" value="1" min="1">
+                        <div class="input-group-append">
+                            <span id="plus-btn" class="input-group-text"><i class="fa fa-plus"></i></span>
+                        </div>
+                    </div>
+
+                    <a href="add_to_cart.html" class="btn ml-2 mr-2">ADD TO CART</a>
+                    <a href="" class="btn"><i class="fas fa-heart"></i></a>
+
+                </div>
+
+                <div class="social_link mt-5 d-flex justify-content-start">
+                    <span class="follow_title mr-2">Share:</span>
+                    <ul class="nav">
+                        <li class="nav-item"><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="nav-item"><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li class="nav-item"><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+                        <li class="nav-item"><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<section id="review">
+    <div class="container mt-3 mb-5">
+        <h3>WRITE YOUR OWN REVIEW</h3>
+        <p>How do you rate this product? </p>
+
+        <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">1 STAR</th>
+                        <th scope="col">2 STARS</th>
+                        <th scope="col">3 STARS</th>
+                        <th scope="col">4 STARS</th>
+                        <th scope="col">5 STARS</th>
+
+                    </tr>
+
+                    <tr>
+                    <th scope="row">Quality</th>
+                    <td><input type="radio" id="quality1" name="quality" value="1"></td>
+                    <td><input type="radio" id="quality2" name="quality" value="2"></td>
+                    <td><input type="radio" id="quality3" name="quality" value="3"></td>
+                    <td><input type="radio" id="quality4" name="quality" value="4"></td>
+                    <td><input type="radio" id="quality5" name="quality" value="5"></td>
+                </tr>
+
+                    <tr>
+                        <th scope="row">Value</th>
+                        <td><input type="radio" id="value1" name="value" value="1"></td>
+                        <td><input type="radio" id="value2" name="value" value="2"></td>
+                        <td><input type="radio" id="value3" name="value" value="3"></td>
+                        <td><input type="radio" id="value4" name="value" value="4"></td>
+                        <td><input type="radio" id="value5" name="value" value="5"></td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Price</th>
+                        <td><input type="radio" id="price1" name="price" value="1"></td>
+                        <td><input type="radio" id="price2" name="price" value="2"></td>
+                        <td><input type="radio" id="price3" name="price" value="3"></td>
+                        <td><input type="radio" id="price4" name="price" value="4"></td>
+                        <td><input type="radio" id="price5" name="price" value="5"></td>
+                    </tr>
+
+                </thead>
+        </table>
+
+        <form>
+
+            <div class="form-group">
+                <label for="name">Nickname <span class="required">*</span></label>
+                <input type="text" id="name" class="form-control" placeholder="Enter Your Name">
+            </div>
+
+            <div class="form-group">
+                <label for="name">Review <span class="required">*</span></label>
+                <textarea cols="5" rows="5" class="form-control"></textarea>
+            </div>
+
+        </form>
+
+        <button type="submit" class="btn">Submit Review</button>
+
+    </div>
+</section>
+
+
+
+<!--Markup for main end -->
+
+
+
+<!--Markup for Footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-sm-12">
+                <h3>Contact Us</h3>
+                <ul class="list-unstyled">
+                    <li><i class="fas fa-map-marker-alt pr-2"></i>Address: Your company, Puffin street 12345, Puffinville</li>
+                    <li><i class="fas fa-phone pr-2"></i>Phone: 0123-456-789</li>
+                    <li><i class="far fa-envelope pr-2"></i>Email: contact@yourcompany.com</li>
+                </ul>
+
+                <div class="social_link d-flex justify-content-start">
+                    <span class="follow_title mt-1">Follow us:</span>
+                    <ul class="nav">
+                        <li class="nav-item"><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="nav-item"><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li class="nav-item"><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+                        <li class="nav-item"><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-lg-6 col-sm-12 text-center">
+                <div class="logo pb-2">
+                    <h2><a href="#">Makeup Shakeup</a></h2>
+                </div>
+
+                <h4>ALLOW PAYMENT BASE ON</h4>
+                <div class="payment_method pt-4">
+                    <img src="img/payment-logo1.png" class="img-fluid">
+                    <img src="img/payment-logo2.png" class="img-fluid">
+                    <img src="img/payment-logo3.png" class="img-fluid">
+                    <img src="img/payment-logo4.png" class="img-fluid">
+                    <img src="img/payment-logo5.png" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-2 col-sm-12">
+                <div class="footer-right">
+                    <h3>Information</h3>
+                    <ul class="list-unstyled">
+                        <li><a href=""><i class="fa fa-angle-double-right"></i>Contact Us</a> </li>
+                        <li><a href=""><i class="fa fa-angle-double-right"></i>Best Sellers</a> </li>
+                        <li><a href=""><i class="fa fa-angle-double-right"></i>On Sale</a> </li>
+                        <li><a href=""><i class="fa fa-angle-double-right"></i>Newest Product</a> </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+</footer>
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<!--js for image magnify-->
+<script src='js/jquery.elevatezoom.js'></script>
+<script type="text/javascript" src="js/jquery.sticky.js"> </script>
+<script type="text/javascript" src="js/script.js"></script>
+
+
+</body>
+</html>
